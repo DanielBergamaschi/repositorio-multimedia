@@ -74,7 +74,9 @@ function preload() {
 
 
 function setup() {
-  createCanvas(700, 1150);
+  let canvas = createCanvas(700, 1150);
+  canvas.parent('canvasDiv');
+
   crearGaleria ();  
 
   
