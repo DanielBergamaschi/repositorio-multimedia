@@ -4,9 +4,104 @@ html, body {
   display:flex;
   align-items: flex-start;
   justify-content: center;
-}
-canvas {
-  display: block;
-  
+  background-color: black;
 }
 
+* {
+box-sizing: border-box;
+}
+
+
+
+/*-------------------------CAJAS, BORDES Y MARGENES----------------------*/
+
+.contenedorPrincipal {
+
+max-width: 1360px;
+padding: 2em;
+padding-top: 1em;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.cajaMuestra, .cajaMuestra section {
+
+padding: 1em;
+margin: 1em;
+border: 3px solid black;
+border-color: black;
+border-radius: 2em;
+
+}
+
+.cajaMuestra {
+
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+.cajaMuestra section {
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+main {
+
+margin-top: 2em;
+margin-bottom: 2em;
+
+}
+
+header {
+
+align-self: flex-start;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+
+/*-------------------------IMAGENES Y CANVAS----------------------*/
+
+canvas {
+  display: block;
+  border-radius: 2em;
+}
+
+#canvasDiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+.cajaMuestra img {
+
+width: 350px;
+height: 350px;
+border-radius: 2em;
+
+}
+
+/*-------------------------TEXTO EN GENERAL Y DISPOSICIONES----------------------*/
+
+h2 {
+
+margin-top: 1.5em;
+
+}
