@@ -27,13 +27,17 @@ align-items: center;
 
 }
 
-.cajaMuestra, .cajaMuestra section {
+.cajaMuestra section {
 
 padding: 1em;
 margin: 1em;
 border: 3px solid black;
 border-color: black;
 border-radius: 2em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -47,12 +51,22 @@ align-items: center;
 
 }
 
-.cajaMuestra section {
+.paginaCanvas section {
 
-
+padding: 1em;
+margin: 1em;
+border: 3px solid black;
+border-color: black;
+border-radius: 2em;
 display: flex;
 flex-direction: column;
 align-items: center;
+
+}
+
+.paginaCanvas section:nth-child(3), .paginaCanvas section:last-child {
+
+border: none;
 
 }
 
@@ -98,6 +112,13 @@ border-radius: 2em;
 
 }
 
+img.futuraCaja {
+
+width: 350px;
+height: auto;
+
+}
+
 /*-------------------------TEXTO EN GENERAL Y DISPOSICIONES----------------------*/
 
 h2 {
@@ -105,3 +126,43 @@ h2 {
 margin-top: 1.5em;
 
 }
+
+h3 {
+
+margin-left: 1em;
+margin-bottom: 2em;
+
+}
+
+.cajaMuestra h3 {
+
+margin-left: 0;
+
+}
+
+.paginaCanvas section h4 {
+
+align-self: flex-start;
+margin-bottom: 0.5em;
+margin-top: 0.5em;
+
+
+}
+
+
+p {
+
+
+margin-top: 1em;
+margin-bottom: 0;
+
+}
+
+.cajaMuestra p {
+
+
+margin-top: 1em;
+margin-left: 1.5em;
+
+}
+
