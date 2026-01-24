@@ -305,8 +305,14 @@ border-radius: 0;
 
 canvas {
 
-max-width: 400px;
+max-width: 280px;
 
+
+}
+
+img {
+
+max-width: 280px;
 
 }
 
