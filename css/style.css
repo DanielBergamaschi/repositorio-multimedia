@@ -366,11 +366,10 @@ margin-left: 0;
 
 }
 
-#paginaVision {
+div#paginaVision {
 
 
-margin-left: 5em;
-
+max-width: 95%;
 }
 
 
