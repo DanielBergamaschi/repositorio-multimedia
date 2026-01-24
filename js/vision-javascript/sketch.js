@@ -57,7 +57,7 @@ function draw() {
       
   strokeWeight (mira)
  translate (mouseX-250, mouseY-250)
-  line (1000, 256, -1000, 256)
+  line (900, 256, -400, 256)
   line (256, 1000, 256, -1000)
   noFill ()
   rectMode (CENTER)
