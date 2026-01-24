@@ -315,8 +315,15 @@ max-width: 280px;
 
 section#vision canvas {
 
+size: 50%;
 max-width: 256px;
 max-height: 256px;
+
+}
+
+section#futura3canvas canvas, section#nuestraCanvas canvas {
+
+max-height: 515px;
 
 }
 
@@ -325,6 +332,7 @@ max-height: 256px;
 img {
 
 max-width: 280px;
+max-height: 280px;
 
 }
 
