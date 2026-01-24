@@ -317,7 +317,6 @@ section#vision canvas {
 
 max-width: 256px;
 max-height: 256px;
-margin-left: 3em;
 
 }
 
@@ -349,6 +348,13 @@ margin-bottom: 2em;
 
 font-size: small;
 margin-left: 0;
+
+}
+
+#paginaVision {
+
+
+padding: 1em;
 
 }
 
