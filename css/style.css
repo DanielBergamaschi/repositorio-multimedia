@@ -304,9 +304,19 @@ border-radius: 0;
 
 }
 
+
+
 canvas {
 
 max-width: 280px;
+
+
+}
+
+section#vision canvas {
+
+max-width: 280px;
+max-height: 280px;
 
 
 }
@@ -333,7 +343,7 @@ margin-bottom: 2em;
 }
 
 
-.paginaFutura  a, .paginaFutura h3 {
+.paginaFutura section h3 a, .paginaFutura section h3 {
 
 font-size: small;
 margin-left: 0;
