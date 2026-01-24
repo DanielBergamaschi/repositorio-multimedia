@@ -333,10 +333,11 @@ margin-bottom: 2em;
 }
 
 
-.paginaFutura  a, .paginaFutura h3,  .paginaCanvas a, .paginaCanvas h3, #futuraBocetos h3 {
+.paginaFutura  a, .paginaFutura h3 {
 
 font-size: small;
 margin-left: 0;
+
 
 
 }
