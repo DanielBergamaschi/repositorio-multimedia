@@ -294,9 +294,9 @@ margin: 0;
 
 .paginaCanvas section, #futuraBocetos section {
 
+max-width: 100%;
 margin-left: 0.5em;
 margin-right: 0.5em;
-max-width: 100%;
 border-left: none;
 border-right: none;
 border-radius: 0;
@@ -315,9 +315,16 @@ max-width: 280px;
 
 section#vision canvas {
 
-max-width: 280px;
-max-height: 280px;
+max-width: 256px;
+max-height: 256px;
 
+
+}
+
+section#futura3canvas canvas {
+
+max-width: 280px;
+max-height: 512px;
 
 }
 
@@ -348,8 +355,8 @@ margin-bottom: 2em;
 font-size: small;
 margin-left: 0;
 
-
-
 }
+
+
 
 }
