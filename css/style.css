@@ -299,9 +299,19 @@ overflow-x: hidden; /* Corta cualquier cosa que sobresalga */
 
 }
 
+
+.paginaCanvas {
+    width: 100%;
+    max-width: 100vw; /* Evita que el contenedor sea más ancho que la ventana */
+    overflow-x: hidden; /* Corta cualquier excedente visualmente */
+    display: flex;
+    flex-direction: column;
+}
+
 .paginaCanvas section, #futuraBocetos section {
 
-max-width: 100%;
+
+width: 100%;
 margin-left: 0;
 margin-right: 0;
 border-left: none;
