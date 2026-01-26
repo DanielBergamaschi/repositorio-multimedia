@@ -5,6 +5,8 @@ html, body {
   align-items: flex-start;
   justify-content: center;
   background-color: black;
+  overflow-x: hidden; 
+  width: 100%;
 }
 
 * {
@@ -286,10 +288,14 @@ h3 a:hover {background-color: rgb(249, 179, 226);
 
 .contenedorPrincipal {
 
+width: 100vw; /* Asegura que ocupe el ancho de la ventana */
+
 max-width: 100%;
 padding: 0 0.5em;
 margin: 0;
 box-shadow: none;
+
+overflow-x: hidden; /* Corta cualquier cosa que sobresalga */
 
 }
 
@@ -366,6 +372,12 @@ margin-left: 0;
 
 }
 
+
+h1, h2, h3 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
 
 
 
