@@ -372,5 +372,11 @@ div#paginaVision {
 max-width: 95%;
 }
 
+#vision {
+
+display: none;
+
+}
+
 
 }
